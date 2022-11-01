@@ -1,0 +1,883 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Teko:300,400,500";
+
+*,
+:before,
+:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+@font-face {
+    font-family: 'pubgFont';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/pubg.woff2) format("woff2"), url(../fonts/pubg.woff) format("woff"), url(../fonts/pubg.ttf) format("truetype")
+}
+
+body {
+    background: url(../img/part1.jpg) no-repeat center;
+    -webkitq-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    margin: 0;
+    font-family: 'Teko'
+}
+
+.namektwitter {
+    height: 160px;
+}
+
+.containerHome {
+    background: url(../img/part3.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+    height: auto;
+    border: 0px solid #1b61e4
+}
+
+.containerHome2 {
+    background: url(../img/namekvery.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+    height: auto;
+    border: 0px solid #1b61e4
+}
+
+.footer {
+    margin-top: 70px;
+    background: #131313;
+    width: 100%;
+    height: auto;
+    padding: none;
+    border-top: 2px solid #ffd700
+}
+
+.navbar {
+    background: #0C0C0C;
+    width: 100%;
+    height: 65px;
+}
+
+.navbar-logo {
+    width: 59px;
+    float: left;
+    margin-top: 11px;
+    margin-left: 11px;
+}
+
+.navbar-shop {
+    width: 25px;
+    margin-top: 19px;
+    margin-right: 20px;
+}
+
+.navbar-language {
+    width: 25px;
+    margin-top: 19px;
+    margin-right: 20px;
+}
+
+.navbar-menu {
+    width: 20px;
+    margin-top: 19px;
+    margin-right: 5px;
+}
+
+.navbar-right {
+    width: auto;
+    float: right;
+}
+
+.navbar-download {
+    background: #ffca13;
+    width: 35px;
+    height: 35px;
+    margin-top: 13px;
+    margin-right: 10px;
+    border-radius: 7px;
+    float: right;
+}
+
+.navbar-download img {
+    width: 20px;
+    height: 21px;
+    margin: 8px;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -2px;
+    border-bottom: 0px solid #70FFB2;
+}
+
+.twitter-timeline {
+    height: 50px;
+    width: auto
+}
+
+.headernamek video {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -9px;
+    display: block
+}
+
+.awalbtn {
+    background-size: 100% 100%;
+    width: 100%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    color: #0088ff;
+    margin-bottom: -20px;
+    border: none;
+    position: relative;
+    outline: none;
+    display: block;
+    font: 500 22px Teko
+}
+
+.landing {
+    width: 100%;
+    height: auto
+}
+
+.season-title {
+    background: url(../img/season-title.png) no-repeat center center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    margin-top: 90%;
+    padding: 20px
+}
+
+.season-title-t1 {
+    background: linear-gradient(180deg, #f6efd8 0%, #d5b073 100%);
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font: 700 30px Teko
+}
+
+.season-title-t2 {
+    color: #b59055;
+    text-align: center;
+    font: 20px Teko
+}
+
+.season-btn {
+    background: url(../img/btn_on.png) no-repeat center center;
+    background-size: 100% 100%;
+    width: auto;
+    height: auto;
+    padding: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    display: block;
+    margin: 5% auto 20px;
+    font: 19px pubgFont
+}
+
+.box {
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    position: relative;
+    border-radius: 5px;
+    display: block
+}
+
+.menu-wrapper-border {
+    height: 11px
+}
+
+.menu-wrapper {
+    width: 94.3%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    display: block
+}
+
+.menu-content {
+    background: url(../img/menu_off.png) no-repeat center center;
+    background-size: 100% 100%;
+    width: 32%;
+    height: auto;
+    padding: 6px;
+    color: #fff;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font: 500 17px 'Teko', sans-serif
+}
+
+.active {
+    background: #1b61e4;
+    color: #000;
+    border: 1px solid #000
+}
+
+.details-tit-box {
+    width: 350px;
+    height: auto;
+    margin-left: 6px;
+    display: flex
+}
+
+.details-tit-box::before {
+    background: url(../img/arrowLeft.png) no-repeat;
+    background-size: 100% 100%;
+    width: calc(115 / 1920 * 100vw);
+    height: calc(7 / 1920 * 100vw);
+    margin-top: 8px;
+    content: '';
+    display: block
+}
+
+.details-tit-box::after {
+    background: url(../img/arrowRight.png) no-repeat;
+    background-size: 100% 100%;
+    width: calc(115 / 1920 * 100vw);
+    height: calc(7 / 1920 * 100vw);
+    margin-top: 8px;
+    content: '';
+    display: block
+}
+
+.details-tit {
+    background: linear-gradient(180deg, #f6efd8 0%, #d5b073 100%);
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font: 500 20px Teko
+}
+
+.scroll {
+    overflow: scroll;
+    position: relative;
+    width: 100%;
+    height: 290px;
+    display: block;
+    scrollbar-face-color: #ffbb40;
+    scrollbar-shadow-color: #ffbb40;
+    scrollbar-highlight-color: #ffbb40;
+    scrollbar-3dlight-color: #ffbb40;
+    scrollbar-darkshadow-color: #ffbb40;
+    scrollbar-track-color: #ffbb40;
+    scrollbar-arrow-color: #ffbb40;
+    margin: 10px auto
+}
+
+.alert-wrapper {
+    width: 93%;
+    height: auto;
+    border-left: 4px solid #0dd5e4;
+    display: block;
+    margin: 10px auto
+}
+
+.alert {
+    background: url(../img/alert.jpg) no-repeat center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    margin-left: 2px;
+    padding: 7px;
+    color: #000;
+    text-align: left;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+.alert-time {
+    width: 25%;
+    height: auto;
+    color: #000;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    float: right;
+    font: 15px Teko, sans-serif
+}
+
+.item {
+    width: 30%;
+    height: 100px;
+    margin: 3px;
+    margin-bottom: 38px;
+    display: inline-block
+}
+
+.item img {
+    width: 100%;
+    height: 100%
+}
+
+.item button {
+    background: url(../img/btn_item.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    padding: 4px;
+    color: #000;
+    text-align: center;
+    border: none;
+    outline: none;
+    font: 500 15px pubgFont
+}
+
+.item img,
+.item button {
+    border: 1px solid #545758
+}
+
+.item div {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px 3px 0 0
+}
+
+.item div:first-child {
+    margin-left: 0
+}
+
+.footer {
+    background: #131313;
+    width: 100%;
+    height: auto;
+    padding: 10px
+}
+
+.footer-txt-follow {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font: 700 17px pubgFont
+}
+
+.footer-follow-icon {
+    width: 49px;
+    height: 49px;
+    margin: 5px;
+    display: inline-block
+}
+
+.footer-txt-copyright {
+    color: #fff;
+    text-align: center;
+    font: 15px pubgFont
+}
+
+.footer-copyright-icon {
+    width: 85%;
+    display: block;
+    margin: 10px auto 20px
+}
+
+.popup {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.popup-box {
+    background: url(../img/popup.png) no-repeat center center;
+    background-size: 100% 100%;
+    width: 390px;
+    height: auto;
+    position: relative;
+    margin: 50px auto;
+    margin-top: 15%;
+    text-align: center;
+    font-family: 'Teko';
+    color: #dbf1ff
+}
+
+.namekpop {
+    background: url(../img/nameklogin.png) no-repeat center center;
+    background-size: 100% 100%;
+    width: 360px;
+    height: 220px;
+    position: relative;
+    margin-top: 235px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.nav-popup {
+    height: auto;
+    border: 4px
+}
+
+.nav-popup-title {
+    background: linear-gradient(180deg, #F6B40F 100%, #FEDF48 100%);
+    padding-left: 25px;
+    text-align: left;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font: 500 25px/60px Teko
+}
+
+.popup-alert {
+    width: 95%;
+    height: auto;
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+    display: block;
+    margin: -5px auto 10px;
+    font: 16px pubgFont
+}
+
+.Namek1 {
+    width: 95%;
+    height: auto;
+    padding: 5px;
+    color: #000;
+    text-align: center;
+    display: block;
+    margin: -5px auto 10px;
+    font: 18px pubgFont
+}
+
+.popup-item {
+    width: 23%;
+    height: 85px;
+    border: 1px solid #dbf1ff;
+    display: block;
+    margin: 20px auto
+}
+
+.popup-btn-wrapper {
+    width: 100%;
+    height: 50px
+}
+
+.popup-btn-wrapper button {
+    width: 30%;
+    height: auto;
+    margin-top: 7px;
+    padding: 3px;
+    color: #000;
+    text-align: center;
+    border: none;
+    outline: none;
+    font: 18px Teko
+}
+
+.popup-btn-deactive {
+    background: url(../img/pop_cancel.png) no-repeat center;
+    background-size: 100% 100%;
+    margin-left: 15%;
+    float: left
+}
+
+.popup-btn-active {
+    background: url(../img/pop_collect.png) no-repeat center;
+    background-size: 100% 100%;
+    margin-right: 35%;
+    float: right
+}
+
+.popup-btn-active-center {
+    background: url(../img/pop_collect.png) no-repeat center;
+    background-size: 100% 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.btn-login {
+    width: 85%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    color: #000;
+    font-size: 18px;
+    font-family: Teko;
+    border: none;
+    outline: none;
+    display: block;
+}
+
+.btn-login i {
+    color: #fff;
+    font-size: 20px;
+    float: left;
+}
+
+.facebook {
+    position: relative;
+    display: block;
+    background: #3b5998;
+    color: #fff;
+    font-size: 16px;
+    top: 160px;
+    margin-left: 63px;
+    margin-right: auto;
+    width: 110px;
+    height: 28px;
+}
+
+.twitter {
+    position: relative;
+    display: block;
+    background: #08a0e9;
+    color: #fff;
+    font-size: 16px;
+    top: 132px;
+    margin-left: auto;
+    margin-right: 63px;
+    width: 110px;
+    height: 27px;
+}
+
+.nameklogin {
+    background: url(img/namekpoplogin.png) no-repeat center;
+    background-size: 100% 100%;
+    background-size: 100% 100%;
+    width: 350px;
+    height: 250px;
+    position: relative;
+    margin-top: 190px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.popup-close {
+    width: 20px;
+    height: 20px;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    display: block
+}
+
+.popup-close i {
+    color: #000;
+    font-size: 25px
+}
+
+.popup-login {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999
+}
+
+.popup-box-login-fb {
+    background: #ECEFF6;
+    max-width: 330px;
+    height: auto;
+    position: relative;
+    margin: 50px auto;
+    margin-top: 1.9%;
+    text-align: center;
+    font-family: 'Teko';
+    color: #000;
+    border-radius: 10px
+}
+
+.popup-box-login-twitter {
+    background: #fff;
+    max-width: 330px;
+    height: 380px;
+    position: relative;
+    margin: 50px auto;
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Teko';
+    color: #000;
+    border-radius: 10px
+}
+
+.close-fb {
+    background: #000;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    display: block
+}
+
+.close-fb i {
+    color: #fff;
+    padding-top: 1px
+}
+
+.close-other {
+    background: #000;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    top: -8px;
+    right: -10px;
+    position: absolute;
+    z-index: 9999999;
+    display: block
+}
+
+.close-other i {
+    color: #fff;
+    padding-top: 1px
+}
+
+.verify-input {
+    background: url(../img/btn_item1.png) no-repeat center;
+    background-size: 100% 100%;
+    width: 94.3%;
+    height: auto;
+    margin-bottom: 3px;
+    padding: 6px;
+    color: #000;
+    border: 1px solid #545758;
+    position: relative;
+    outline: none;
+    font: 15px pubgFont
+}
+
+.verify-input::placeholder {
+    color: #000
+}
+
+.verify-select {
+    background: url(../img/btn_item.png) no-repeat center;
+    background-size: 100% 100%;
+    width: 94.3%;
+    height: auto;
+    margin-bottom: 3px;
+    padding: 6px;
+    padding-left: 3px;
+    color: #000;
+    border: 1px solid #545758;
+    position: relative;
+    outline: none;
+    font: 15px pubgFont
+}
+
+.verify-btn {
+    background: url(../img/pop_collect.png) no-repeat center;
+    background-size: 100% 100%;
+    width: 85px;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 3px;
+    border: none;
+    position: relative;
+    outline: none;
+    font: 17px pubgFont
+}
+
+.kanan {
+    float: right
+}
+
+.kiri {
+    float: left
+}
+
+.tengah {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+::-webkit-scrollbar {
+    display: none;
+    width: 0
+}
+
+.kanan {
+    float: right;
+}
+
+.kiri {
+    float: left;
+}
+
+.tengah {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    width: 0px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.itemShine figure {
+    position: relative;
+}
+
+.itemShine figure::before {
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: -75%;
+    position: absolute;
+    z-index: 2;
+    content: '';
+    display: block;
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+
+.itemShine figure::before {
+    -webkit-animation: shine 2s infinite;
+    animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+@keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+
+    .containerLanding,
+    .containerHome {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        border: none;
+        border-radius: 0;
+        padding: 0
+    }
+
+    .navbar-pay {
+        margin-left: 60px
+    }
+
+    .box {
+        width: 96%;
+        height: auto
+    }
+
+    .details-tit-box {
+        width: 330px;
+        margin-left: 17px
+    }
+
+    .details-tit-box::before {
+        background: url(../img/arrowLeft.png) no-repeat;
+        background-size: 100% 100%;
+        width: calc(115 / 1920 * 450vw);
+        height: calc(7 / 1920 * 450vw);
+        margin-top: 8px;
+        content: '';
+        display: block
+    }
+
+    .details-tit-box::after {
+        background: url(../img/arrowRight.png) no-repeat;
+        background-size: 100% 100%;
+        width: calc(115 / 1920 * 450vw);
+        height: calc(7 / 1920 * 450vw);
+        margin-top: 8px;
+        content: '';
+        display: block
+    }
+
+    .scroll {
+        height: 400px
+    }
+
+    .item {
+        height: 100px
+    }
+
+    .popup-box {
+        width: 345px;
+        margin-top: 60%
+    }
+
+    .popup-item {
+        width: 25%;
+        height: 85px
+    }
+
+    .popup-box-login-fb {
+        margin-top: 4%
+    }
+
+    .popup-box-login-twitter {
+        margin-top: 25%
+    }
+}
